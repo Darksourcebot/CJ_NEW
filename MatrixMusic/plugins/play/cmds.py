@@ -16,7 +16,7 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_video(
-        video=f"https://graph.org/file/8e889b909ac6011b4cde2.mp4",
+        video=f"https://telegra.ph/file/f4bd9cdbf56ee83098907.mp4",
         caption=f"""<b>↯︙مرحباً بك عزيزي</b>\n<b>↯︙استخدم الازرار بالاسفل\n» ل تصفح اوامر الميوزك</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
