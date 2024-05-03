@@ -1,10 +1,10 @@
-اح ـنآ ، آلقآنؤن ، ؤح ـنآ ، #آلخخطر ، بح ـد ، ذآتهه
+<p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
 
-آح ـنآ ، مٓ ـن ، يككتب ، #آلتآريخخ
+حقوق هذا الملف محفوظه للمطور اعدام وخاص بسورس سي جي:
 
-آح ـنآ ، #ججيؤش ، آلقيآدههه
+https://t.me/DAD_E3DAM
 
-آلـتـ(https://t.me/EU_TM ) ـاريخ❤️
+https://t.me/CG_G11
 
-#https://t.me/l2_2Y
-نت ماش مطور نت حرامي
+
+<p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
