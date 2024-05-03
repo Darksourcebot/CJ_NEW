@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="𝙎𝙊𝙐𝙍𝘾𝙀 𝗖𝗝", url=f"https://t.me/CG_G11"),
             InlineKeyboardButton(text="ᏀᎡΌႮᏢ", url=f"https://t.me/PO_UV"),
         ],[
-            InlineKeyboardButton(text="𖥻 𝐔𝐑 , 𝐅𝐚𝐕 𝐀𝐛𝐃𝐎𝐨 -", url=f"https://t.me/EU_TM"),
+            InlineKeyboardButton(text="『 َِٓ𝗘َِ𝟯َِٓ𝗗َِٓ𝗔َِٓ𝗠َِٓ ℡ 』 ☬ ➥ مٓمٓــۄل ||", url=f"https://t.me/DAD_E3DAM"),
         ],[
             InlineKeyboardButton(text="اضف البوت الي مجموعتك او قناتك⚡", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
