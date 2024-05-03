@@ -66,7 +66,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="ᏢᎪႮՏᎬ", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="𝙎𝙊𝙐𝙍𝘾𝙀 𝗖𝗝", url=f"https://t.me/CG_G11"),
+            InlineKeyboardButton(text="𝐒𝐎𝐔𝐑𝐂𝐄", url=f"https://t.me/CG_G11"),
             InlineKeyboardButton(text="ᏀᎡΌႮᏢ", url=f"https://t.me/PO_UV"),
         ],[
             InlineKeyboardButton(text="『 َِٓ𝗘َِ𝟯َِٓ𝗗َِٓ𝗔َِٓ𝗠َِٓ ℡ 』 ☬ ➥ مٓمٓــۄل ||", url=f"https://t.me/DAD_E3DAM"),
