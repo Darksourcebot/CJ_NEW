@@ -70,7 +70,7 @@ async def mpdtsf(client, message):
 
 
 @app.on_callback_query(filters.regex("zzzll"))
-async def zzzll(_, query: CallbackQuery):
+async def zzzll(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر التشغيل :</b>
@@ -98,7 +98,7 @@ async def zzzll(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzad"))
-async def zzzad(_, query: CallbackQuery):
+async def zzzad(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر الادمن :</b>
@@ -143,7 +143,7 @@ async def zzzad(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzch"))
-async def zzzch(_, query: CallbackQuery):
+async def zzzch(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر التشغيل في القناة :</b>
@@ -188,7 +188,7 @@ async def zzzch(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzup"))
-async def zzzup(_, query: CallbackQuery):
+async def zzzup(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر المطور :</b>
@@ -218,7 +218,7 @@ async def zzzup(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzsu"))
-async def zzzsu(_, query: CallbackQuery):
+async def zzzsu(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر المطور :</b>
@@ -245,7 +245,7 @@ async def zzzsu(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzbn"))
-async def zzzbn(_, query: CallbackQuery):
+async def zzzbn(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر المطور :</b>
@@ -280,7 +280,7 @@ async def zzzbn(_, query: CallbackQuery):
 
 
 @app.on_callback_query(filters.regex("zzzas"))
-async def zzzas(_, query: CallbackQuery):
+async def zzzas(client, message):
    await query.edit_message_text(
        f"""
 ↯︙<b>قائمة اوامر المطور :</b>
