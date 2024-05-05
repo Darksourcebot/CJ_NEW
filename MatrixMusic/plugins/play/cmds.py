@@ -72,7 +72,7 @@ async def mpdtsf(client, message):
 @app.on_callback_query(filters.regex("zzzll"))
 async def zzzll(client, message):
    await query.edit_message_text(
-      """
+      f"""
 ↯︙<b>قائمة اوامر التشغيل :</b>
 – – – – – – – – – – – – – – – – – –
 تشغيل + (اسم الاغنية / رابط الاغنية)
@@ -99,7 +99,7 @@ async def zzzll(client, message):
 @app.on_callback_query(filters.regex("zzzad"))
 async def zzzad(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر الادمن :</b>
 – – – – – – – – – – – – – – – – – –
 الاعدادات
@@ -144,7 +144,7 @@ async def zzzad(client, message):
 @app.on_callback_query(filters.regex("zzzch"))
 async def zzzch(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر التشغيل في القناة :</b>
 – – – – – – – – – – – – – – – – – –
 <b>- ارفع البوت إشراف في القناة و شغل مباشر</b>
@@ -189,7 +189,7 @@ async def zzzch(client, message):
 @app.on_callback_query(filters.regex("zzzup"))
 async def zzzup(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر المطور :</b>
 – – – – – – – – – – – – – – – – – –
 <b>- قائمة اوامر التحديثات :</b>
@@ -219,7 +219,7 @@ async def zzzup(client, message):
 @app.on_callback_query(filters.regex("zzzsu"))
 async def zzzsu(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر المطور :</b>
 – – – – – – – – – – – – – – – – – –
 <b>- قائمة اوامر الرفع :</b>
@@ -246,7 +246,7 @@ async def zzzsu(client, message):
 @app.on_callback_query(filters.regex("zzzbn"))
 async def zzzbn(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر المطور :</b>
 – – – – – – – – – – – – – – – – – –
 <b>- قائمة اوامر الحظر :</b>
@@ -281,7 +281,7 @@ async def zzzbn(client, message):
 @app.on_callback_query(filters.regex("zzzas"))
 async def zzzas(client, message):
    await query.edit_message_text(
-       """
+       f"""
 ↯︙<b>قائمة اوامر المطور :</b>
 – – – – – – – – – – – – – – – – – –
 <b>↯︙قائمة اوامر المساعد :</b>
