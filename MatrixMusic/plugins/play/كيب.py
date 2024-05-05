@@ -1,5 +1,5 @@
 import asyncio
-from pyrogram import Client, filters
+CJrom pyrogram import Client, filters
 from strings.filters import command
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from MatrixMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
@@ -91,7 +91,7 @@ REPLY_MESSAGE_BUTTONS = [
     ]
 ]
 
-@app.on_message(filters.regex("^/Cj"), group=39)
+@app.on_message(filters.regex("^/CJ"), group=39)
 async def cpanel(_, message: Message):             
         text = REPLY_MESSAGE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONS, resize_keyboard=True, selective=True)
