@@ -1,5 +1,5 @@
 import asyncio
-CJrom pyrogram import Client, filters
+from pyrogram import Client, filters
 from strings.filters import command
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from MatrixMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
