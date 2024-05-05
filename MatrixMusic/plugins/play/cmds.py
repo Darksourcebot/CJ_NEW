@@ -35,7 +35,7 @@ async def zdatsr(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url="https://t.me/UU_GR"),
+                        "𝑺𝑶𝑼𝑹𝑪𝑬 CJ", url="https://t.me/CG_G11"),
                    ],
             ]
         ),
@@ -43,7 +43,7 @@ async def zdatsr(client: Client, message: Message):
          
 
 @app.on_callback_query(filters.regex("zzzdv"))
-async def mpdtsf(query: CallbackQuery):
+async def mpdtsf<query:CallbackQuery>:
    await query.edit_message_text(
        f"""<b>↯︙مرحباً بك عزيزي المطور </b>\n\n<b>↯︙استخدم الازرار بالاسفل\n↯︙ل تصفح اوامر الميوزك</b>""",
         reply_markup=InlineKeyboardMarkup(
@@ -302,4 +302,4 @@ async def zzzas(_, query: CallbackQuery):
                ],
           ]
         ),
-)
+              )
