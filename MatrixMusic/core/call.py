@@ -51,7 +51,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="MatrixAss1",
+            name="MatrixMusicAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -61,7 +61,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="MatrixAss2",
+            name="MatrixMusicAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -71,7 +71,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="MatrixAss3",
+            name="MatrixMusicAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="MatrixAss4",
+            name="MatrixMusicAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -91,7 +91,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="MatrixAss5",
+            name="MatrixMusicAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -506,7 +506,7 @@ class Call(PyTgCalls):
                         if str(streamtype) == "audio"
                         else config.TELEGRAM_VIDEO_URL,
                         caption=_["stream_1"].format(
-                            config.SUPPORT_CHANNEL, title[:23], check[0]["dur"], user
+                            config.SUPPORT_CHAT, title[:23], check[0]["dur"], user
                         ),
                         reply_markup=InlineKeyboardMarkup(button),
                     )
@@ -556,7 +556,7 @@ class Call(PyTgCalls):
         return str(round(sum(pings) / len(pings), 3))
 
     async def start(self):
-        LOGGER("ميــوزك سي چي").info("جارِ تحميل مكاتب الميوزك . . .\n")
+        LOGGER(__name__).info(" جاري تشغيل البوت \n")
         if config.STRING1:
             await self.one.start()
         if config.STRING2:
@@ -598,4 +598,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-Zelzaly = Call()
+Dil = Call()
