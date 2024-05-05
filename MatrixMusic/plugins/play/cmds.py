@@ -16,7 +16,7 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+        photo=f"https://telegra.ph/file/f4bd9cdbf56ee83098907.mp4",
         caption=f"""<b>↯︙مرحباً بك عزيزي</b>\n<b>↯︙استخدم الازرار بالاسفل\n» ل تصفح اوامر الميوزك</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -72,8 +72,8 @@ async def mpdtsf(client, message):
 @app.on_callback_query(filters.regex("zzzll"))
 async def zzzll(client, message):
    await query.edit_message_text(
-       f"""
-↯︙<b>قائمة اوامر التشغيل :</b>
+       
+" ↯︙<b>قائمة اوامر التشغيل :</b>
 – – – – – – – – – – – – – – – – – –
 تشغيل + (اسم الاغنية / رابط الاغنية)
 <b>- ل تشغيل اغنية في المكالمة الصوتية</b>
@@ -82,9 +82,8 @@ async def zzzll(client, message):
 <b>- ل تشغيل فيديو في المكالمة المرئية</b>
 – – – – – – – – – – – – – – – – – –
 بحث + الاسم
-<b>- ل تحميل الاغاني والمقاطع الصوتيه من اليوتيوب</b>
-
-""",
+<b>- ل تحميل الاغاني والمقاطع الصوتيه من اليوتيوب</b> "
+,
        reply_markup=InlineKeyboardMarkup(
           [
                [
